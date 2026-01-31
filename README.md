@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import srot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-srot@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-wasm-srot/tags). For example,
+
+```javascript
 import srot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-srot@v0.1.0-esm/index.mjs';
 ```
 
@@ -323,7 +328,7 @@ The function has the following additional parameters:
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import srot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-srot@v0.1.0-esm/index.mjs';
+import srot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-srot@esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
