@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-27)
+## Unreleased (2026-09-23)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`bf20542`](https://github.com/stdlib-js/stdlib/commit/bf20542289f45849b591f42254df4dafa253f1ab) - **test:** migrate `blas/base/wasm/srot` to ULP-based assertions [(#15444)](https://github.com/stdlib-js/stdlib/pull/15444) _(by Athan Reines)_
 -   [`607bbc6`](https://github.com/stdlib-js/stdlib/commit/607bbc6e104c273e5b26cabfb21a8c06f3d5d375) - **build:** avoid false positives in ESLint rule `jsdoc-doctest-decimal-point` [(#14644)](https://github.com/stdlib-js/stdlib/pull/14644) _(by Philipp Burckhardt, Athan Reines)_
 -   [`94e67fd`](https://github.com/stdlib-js/stdlib/commit/94e67fd1ed8a206d4209c1071c378661cc9ab16b) - **build:** add scripts to insert license headers [(#13482)](https://github.com/stdlib-js/stdlib/pull/13482) _(by Prashant Kumar Yadav)_
 -   [`cd99d80`](https://github.com/stdlib-js/stdlib/commit/cd99d8072389d37a05848951926c3fe51da19832) - **docs:** propagate fixes to sibling packages [(#11843)](https://github.com/stdlib-js/stdlib/pull/11843) _(by Philipp Burckhardt)_
